@@ -1,3 +1,8 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
 .bio{
 	margin-top: 100px;
 }
@@ -37,8 +42,9 @@
 .bio figcaption{
 	text-align: center;
 }
+
 .info{
-	height: 140px;
+	height: 350px;
 	box-shadow: 0 3px 30px rgba(0,0,0,0.8);
 	border-radius: 12px;
 	margin-top: -100px;
@@ -68,8 +74,42 @@
 }
 
 .footer{
-	margin-top: 100px;
+	margin-top: 80px;
 }
+
 .footer p{
 	color: #ACACAC;
 	font-size: 18px;
+}
+
+@media (min-width: 992px) { 
+	.info{
+		height: 150px;
+		box-shadow: 0 3px 30px rgba(0,0,0,0.8);
+		border-radius: 12px;
+		margin-top: -100px;
+		background-color: #E6E6FA;
+		padding: 35px;
+	}
+	
+	.info img{
+		width: 80px;
+		height: 80px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	
+	.info h4{
+		font-size: 16px;
+		text-transform: uppercase;
+		font-weight: bold;
+		margin-top: 5px;
+	}
+	
+	.info p{
+		font-size: 18px;
+		color: blue;
+		margin-top: -5px;
+		font-weight: 200;
+	}	
+}
